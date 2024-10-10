@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .dark-2{
+    color: var(--Dark-02, #474747);
+
+  }
+
+
+
+
+/* sahared styles */
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* cpmmon button setup */
+.btn-primary{
+    
+}
+
+
+/* Nav Syles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 185px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 36px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+}
